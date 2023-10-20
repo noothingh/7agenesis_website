@@ -1,0 +1,289 @@
+font {
+    font-family: curs;
+    color: white;
+}
+
+#menu {
+    margin-top: 1.5%;
+}
+
+.menustuff {
+    color: white;
+    padding: 14px 90px;
+    border-right: 1px solid white;
+    transition: transform 0.5s, color 0.5s;
+
+}
+
+#drugs {
+    color: white
+}
+
+body {
+    background: linear-gradient(to left top, rgba(0,0,0,0.1), rgba(0,0,0,0.2)), 
+    url(computer\ bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#bTITLE {
+    margin-top: 1.5%;
+}
+
+#bTitle {
+    font-size: 200px;
+}
+
+#computer1desc {
+    font-size: 30px;
+}
+
+.gradient-overlay {
+    position: relative;
+}
+#Group1 {
+    transform: translateY(100px);
+    transform: translateX(0px); 
+    border: 1px solid #000;
+}
+
+#Group2 {
+    transform: translateY(100px);
+    transform: translateX(0px); 
+    border: 1px solid #000;
+    height: 278px;
+}
+
+#Group3 {
+    transform: translateY(100px);
+    transform: translateX(0px); 
+    border: 1px solid #000;
+}
+
+#Group4 {
+    transform: translateY(100px);
+    transform: translateX(0px); 
+    border: 1px solid #000;
+}
+
+.menustuff:hover {
+    transform: translateX(10px);
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+#contentin {
+    position: absolute;
+    transform: translateY(-70%)
+}
+
+#content {
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    transform: translateY(-30%);
+    text-align: center;
+}
+
+#composition {
+    transform: translateY(620px);
+}
+
+#informationalvideo {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    transform: translateY(-10%);
+    text-align: center;
+}
+
+#aButton {
+    background: none;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: white;
+    color: white;
+    text-transform: uppercase;
+    width: 125px;
+    cursor: pointer;
+    
+}
+
+#bButton {
+    background: none;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: white;
+    color: white;
+    text-transform: uppercase;
+    width: 125px;
+    cursor: pointer;
+    
+}
+
+#cButton {
+    background: none;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: white;
+    color: white;
+    text-transform: uppercase;
+    width: 125px;
+    cursor: pointer;
+    
+}
+
+#dButton {
+    background: none;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: white;
+    color: white;
+    text-transform: uppercase;
+    width: 125px;
+    cursor: pointer;
+    
+}
+
+#eButton {
+    background: none;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: white;
+    color: white;
+    text-transform: uppercase;
+    width: 125px;
+    cursor: pointer;
+    
+}
+
+#fButton {
+    background: none;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: white;
+    color: white;
+    text-transform: uppercase;
+    width: 125px;
+    cursor: pointer;
+    
+}
+
+#gButton {
+    background: none;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: white;
+    color: white;
+    text-transform: uppercase;
+    width: 125px;
+    cursor: pointer;
+    
+}
+
+#hButton {
+    background: none;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: white;
+    color: white;
+    text-transform: uppercase;
+    width: 125px;
+    cursor: pointer;
+    
+}
+
+#iButton {
+    background: none;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: white;
+    color: white;
+    text-transform: uppercase;
+    width: 125px;
+    cursor: pointer;
+    
+}
+
+#aButton:hover{
+    animation-name: myHubert;
+    animation-duration: 1s;
+
+}
+
+
+
+@keyframes myHover {
+    from {
+        color: white;
+    
+    }
+
+    to {
+        color: red;
+        animation-duration: 6s;
+
+    }
+}
+
+@keyframes myHubert {
+    from {background: none;}
+
+    to {
+        background-color: white;
+        color: black;
+    }
+}
+
+#goals {
+    list-style-type: circle;
+}
+
+@keyframes myHubert2 {
+    from {
+        color: white;
+        transform: translateX(0px);}
+    to {
+        color: red;
+        transform: translateX(20px);}
+}
+
+#lists1, #lists2, #lists3, #lists4 {
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
+}
+
+#lists1:hover {
+    animation-name: myHubert2;
+    animation-duration: 1s;
+}
+
+#lists2:hover {
+    animation-name: myHubert2;
+    animation-duration: 1s;
+}
+
+#lists3:hover {
+    animation-name: myHubert2;
+    animation-duration: 1s;
+}
+
+#lists4:hover {
+    animation-name: myHubert2;
+    animation-duration: 1s;
+}
